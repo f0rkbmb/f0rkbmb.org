@@ -3,7 +3,7 @@ body {
     background-color: #222;
     color: #fff;
     padding-top: 6rem;
-    overflow: hidden;
+    overflow-x: hidden;
     text-align: center;
 }
 h1 {
