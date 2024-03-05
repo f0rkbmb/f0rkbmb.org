@@ -1,124 +1,33 @@
-header {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    top: 0;
-    left: 0;
-}
-html {
-    height: 100%;
-}
 .logo {
     width: 4rem;
 }
-header nav{
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0 2rem;
+header nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     background-color: #282828;
     border-bottom: 0.05rem solid #444;
+    color: #fff;
 }
-
 header nav p {
-    color: #FFFFFF;
     font-size: 2rem;
     padding: 0 1.5rem;
-    font-weight: 300;
-    resize: none;
     margin: 0;
 }
-header .left-nav {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    padding-left: 0;
-}
-header .right-nav {
+header .nav-side {
     display: flex;
     list-style: none;
     align-items: center;
 }
-header ul a {
+header nav a {
     text-decoration: none;
-    color: #FFFFFF;
-    font-weight: 300;
     font-size: 1.25rem;
     padding: 0 1.5rem;
-}
-.menu-button a{
-    width: 37px;
-    height: 37px;
-    /*border-radius: 50%;
-    background-color: rgba(115,115,115,0.7);*/
-    display: flex;
-    padding: 0 0;
-    /*backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);*/
-    justify-content: center;
-    align-items: center;
-}
-
-.menu-button .menu-bars {
-    position: relative;
-    width: 30%;
-    height: 1.3px;
-    background-color: #FFFFFF;
-    border-radius: 2px;
-    opacity: 1;
-    top: 4.5px;
-    transition: all 0.25s ease-in-out 0.25s;
-}
-.menu-button .menu-bars::before, .menu-button .menu-bars::after {
-    content: "";
-    position: absolute;
-    height: 100%;
-    background-color: inherit;
-    border-radius: 2px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: inline-block;
-}
-.menu-button .menu-bars::after{
-    top: -9px;
-    width: 100%;
-    transition: all 0.25s ease-in-out 0.5s;
-}
-.menu-button .menu-bars::before{
-    top: -4.5px;
-    width: 175%;
-    transition: 0.75s ease-in-out 0.75s;
-    height: 75%;
-}
-
-.menu-button.active .menu-bars::after {
-    transform: rotate(90deg);
-    width: 100%;
-    top: 0;
-    left: 0%;
-    transition: all 0.25s ease-in-out 0.5s;
-}
-.menu-button.active .menu-bars::before {
-    opacity: 0;
-    height: 0.1px;
-    transition: 0.1s ease-in-out 0.1s;
-}
-.menu-button .menu-bars.active {
-    transform: rotate(-45deg);
-    width: 52%;
-    top: 0;
-    left: 0%;
-    transition: all 0.25s ease-in-out 0.25s;
+    color: #fff;
 }
 a.home-link {
-    height: 0;
-    width: 0;
     padding: 0;
-    text-transform: none;
 }
